@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // 输出目录
+    "target": "ES5", // 输出的 JavaScript 版本
+    "module": "ES6", // 使用 ES6 模块
+    "moduleResolution": "node", // 模块解析策略
+    "declaration": true, // 生成 .d.ts 文件
+    "strict": true, // 启用所有严格类型检查选项
+    "esModuleInterop": true, // 允许对 ES 模块进行兼容性处理
+    "skipLibCheck": true, // 跳过库的类型检查
+    "forceConsistentCasingInFileNames": true // 文件名一致性强制检查
+  },
+  "include": ["src/**/*"], // 指定要包含在编译中的文件
+  "exclude": ["node_modules"] // 排除的文件夹
+}
