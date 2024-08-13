@@ -163,13 +163,29 @@ export class URLParams {
   }
 
   /**
+   * 获取当前的查询字符串。
+   * @returns {string} 返回序列化后的查询字符串，以 `?` 开头。如果没有查询参数，返回空字符串。
+   */
+  toStringSearch(): string {
+    const searchString = this.searchParams.toString();
+    return searchString ? `?${searchString}` : '';
+  }
+
+  /**
+   * 获取当前的哈希部分及其查询参数。
+   * @returns {string} 返回序列化后的哈希片段和查询参数。如果没有哈希和查询参数，返回空字符串。
+   */
+  toStringHash(): string {
+    const hashString = this.hashSearchParams.toString();
+    return `${this.hash}${hashString ? `?${hashString}` : ''}`;
+  }
+
+  /**
    * 获取处理后的查询字符串和哈希部分。
    * @returns {string} 返回处理后的完整 URL 字符串（不包括协议和域名）。
    */
   toString(): string {
-    const searchString = this.searchParams.toString();
-    const hashString = this.hashSearchParams.toString();
-    return `${window.location.pathname}${searchString ? '?' + searchString : ''}${this.hash}${hashString ? '?' + hashString : ''}`;
+    return `${window.location.pathname}${this.toStringSearch()}${this.toStringHash()}`;
   }
 
   /**
