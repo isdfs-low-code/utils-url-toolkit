@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/isdfs-low-code/utils-url-toolkit/compare/v0.0.4...v0.0.5) (2024-08-13)
+
+
+### Features
+
+* 增加纯urlNavigator.ts-待验证版本 ([86efc5a](https://github.com/isdfs-low-code/utils-url-toolkit/commit/86efc5a0c0e96268668ca4a9b6b2b68efdc54766))
+
 ### [0.0.4](https://github.com/isdfs-low-code/utils-url-toolkit/compare/v0.0.3...v0.0.4) (2024-08-13)
 
 
