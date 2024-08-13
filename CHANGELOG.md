@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/isdfs-low-code/utils-url-toolkit/compare/v0.0.3...v0.0.4) (2024-08-13)
+
+
+### Features
+
+* 新增 ([63e489b](https://github.com/isdfs-low-code/utils-url-toolkit/commit/63e489becd2f06c2ee28506f286981cad6b2e5d2))
+
 ### [0.0.3](https://github.com/isdfs-low-code/utils-url-toolkit/compare/v0.0.2...v0.0.3) (2024-08-13)
 
 ### [0.0.2](https://github.com/isdfs-low-code/utils-url-toolkit/compare/v0.0.1...v0.0.2) (2024-08-13)
