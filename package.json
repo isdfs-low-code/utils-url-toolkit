@@ -4,6 +4,9 @@
   "description": "A utility package for managing URL parameters and hash segments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "webpack",
     "release": "standard-version",
