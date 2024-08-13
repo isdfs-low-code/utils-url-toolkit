@@ -1,6 +1,6 @@
 {
   "name": "@isdfs-low-code/utils-url-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility package for managing URL parameters and hash segments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,6 +22,11 @@
     "hash",
     "query",
     "utils"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "author": "isdfs <1129445935@qq.com>",
   "license": "MIT",
