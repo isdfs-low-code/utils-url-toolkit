@@ -1,6 +1,6 @@
 {
   "name": "@isdfs-low-code/utils-url-toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility package for managing URL parameters and hash segments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
