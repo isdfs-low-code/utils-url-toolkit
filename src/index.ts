@@ -10,3 +10,5 @@ export * from './navigator';
 export * from './nestedParams';
 export * from './urlEncoding';
 export * from './pathUtils';
+export * from './urlSecurity';
+export * from './seoUtils';
