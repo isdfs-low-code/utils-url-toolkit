@@ -12,3 +12,4 @@ export * from './urlEncoding';
 export * from './pathUtils';
 export * from './urlSecurity';
 export * from './seoUtils';
+export * from './URLNavigator';
